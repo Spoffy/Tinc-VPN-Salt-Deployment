@@ -1,0 +1,5 @@
+#!/bin/sh
+IP={{ ip }}
+
+ip addr del $IP dev $INTERFACE
+ip link set $INTERFACE down

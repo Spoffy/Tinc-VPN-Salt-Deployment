@@ -1,0 +1,11 @@
+tinc:
+  TincyTest-01:
+    name: tincytest01
+    local_address: '172.23.24.1/24'
+    route: '172.23.24.1/32'
+    connect_to: [tincytest02]
+  TincyTest-02:
+    name: tincytest02
+    local_address: '172.23.24.2/24'
+    route: '172.23.24.2/32'
+    connect_to: [tincytest01]

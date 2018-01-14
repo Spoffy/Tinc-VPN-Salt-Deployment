@@ -1,0 +1,4 @@
+base:
+  '*':
+    - tinc_common
+    - tinc_config
